@@ -1,0 +1,154 @@
+{% extends "_base.html" %}
+{% set titulek = 'Penzion U Hujňáků – ubytování v Rohatci s bazénem a sklípkem' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="hero-foto">
+    {{ img('bazen2.jpg', 'Zastřešený bazén v zahradě penzionu, kolem lehátka a cihlová zeď', sizes='100vw') }}
+  </div>
+  <div class="wrap hero-text">
+    <p class="stitek">Rohatec · u cyklostezky k Baťovu kanálu</p>
+    <h1>Ubytování v Rohatci s bazénem a vinným sklípkem</h1>
+    <p class="perex">Osm apartmánů a pokojů s kuchyňkou a klimatizací. V zahradě zastřešený vyhřívaný bazén se slanou vodou a sudová sauna, před domem soukromé parkoviště zdarma.</p>
+    <p class="akce"><a class="tlacitko" href="#pokoje">Najít pokoj podle počtu osob</a> <a class="odkaz" href="#kontakt">Poslat poptávku</a></p>
+  </div>
+</section>
+
+<section class="sekce" id="pokoje">
+  <div class="wrap">
+    <h2>Kolik vás přijede?</h2>
+    <p class="uvod">Vyberte počet osob a ukážeme, kam se vejdete a kolik to vychází za noc.</p>
+    <div class="osoby" role="group" aria-label="Počet osob" id="osoby">
+      {% for n in range(1, 8) %}<button type="button" class="osoba" data-n="{{ n }}" aria-pressed="{{ 'true' if n == 2 else 'false' }}">{{ n }}<span class="sr-only"> {{ 'osoba' if n == 1 else ('osoby' if n < 5 else 'osob') }}</span></button>{% endfor %}
+    </div>
+    <div class="visacky" id="visacky" aria-live="polite">
+      {% for p in data.pokoje %}
+      <article class="visacka" data-max="{{ p.max }}">
+        <div class="vis-cislo">{{ p.id }}</div>
+        <div class="vis-foto">{{ img('apart1.jpg' if p.id[0] == 'A' else 'pokoj1.jpg', '', sizes='(min-width: 60rem) 14rem, 30vw') }}</div>
+        <div class="vis-telo">
+          <h3>{{ p.typ }}</h3>
+          <p>Až pro {{ p.max }} {{ 'osoby' if p.max < 5 else 'osob' }}: {{ p.lozka }}.</p>
+          <p class="vis-cena"><strong class="cena"></strong> <span class="za">za pokoj a noc</span></p>
+          <p class="vis-pozn"></p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="poznamka-cen" id="poznamka-cen">Ceny jsou bez turistického a obecního poplatku a bez DPH 12 %. Pokoj obsazený jednou osobou platí cenu za dvě osoby, kromě apartmánu A3.</p>
+
+
+    <details class="cenik">
+      <summary>Celý ceník a podmínky pobytu</summary>
+      <div class="tabulka-wrap">
+      <table>
+        <caption class="sr-only">Cena za pokoj a noc podle počtu osob</caption>
+        <thead><tr><th scope="col">Pokoj</th>{% for n in range(1, 8) %}<th scope="col">{{ n }} os.</th>{% endfor %}</tr></thead>
+        <tbody>
+        {% for p in data.pokoje %}
+          <tr><th scope="row">{{ p.id }}</th>{% for n in range(1, 8) %}{% set k = n|string %}<td>{% if k in p.ceny %}{{ '{:,}'.format(p.ceny[k]).replace(',', ' ') }}&nbsp;Kč{% elif n < 2 and p.ceny['2'] is defined %}2&nbsp;000&nbsp;Kč{% else %}–{% endif %}</td>{% endfor %}</tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      </div>
+      <ul class="podminky" role="list">
+        <li>Ceny neobsahují turistický a obecní poplatek ani DPH 12 %.</li>
+        <li>Pobyt na jednu noc jen po domluvě, příplatek 500 Kč.</li>
+        <li>O prodloužených víkendech, svátcích a prázdninách minimálně tři noci. Kratší pobyt po domluvě, příplatek 500 Kč.</li>
+        <li>Kola ve stojanu v areálu zdarma, v garáži 50 Kč za noc a kolo, elektrokola 50 Kč za noc.</li>
+        <li>K zapůjčení: kola dle domluvy, chladicí zařízení (pípa) 250 Kč za den, gril 250 Kč za den.</li>
+        <li>Lůžkoviny, osušky, ručníky, utěrka a úklidové pomůcky jsou v ceně. Možnost čerpání FKSP.</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section class="sekce zahrada" id="zahrada">
+  <div class="wrap">
+    <div class="zahrada-text">
+      <h2>Bazén se slanou vodou, sauna a zahrada</h2>
+      <p>Zastřešený vyhřívaný bazén má rozměry 8 × 4 × 1,5 m a slanou vodu. Kolem jsou lehátka, v zahradě sudová sauna a zahradní posezení pod střechou.</p>
+      <p>Bazén i saunu mají hosté na zahradě penzionu, stejně jako stojan na kola a soukromé parkoviště před domem.</p>
+    </div>
+    <div class="mozaika">
+      <figure class="m1">{{ img('bazen1.jpg', 'Bazén v zahradě penzionu, v pozadí posezení pod střechou', sizes='(min-width: 60rem) 40rem, 100vw') }}</figure>
+      <figure class="m2">{{ img('sauna1.jpg', 'Sudová sauna v zahradě', sizes='(min-width: 60rem) 24rem, 50vw') }}</figure>
+      <figure class="m3">{{ img('sauna2.jpg', 'Sauna uvnitř: dřevěné lavice a kamna', sizes='(min-width: 60rem) 24rem, 50vw') }}</figure>
+      <figure class="m4">{{ img('zahrada.jpg', 'Zastřešené zahradní posezení s lavicemi a stoly', sizes='(min-width: 60rem) 30rem, 100vw') }}</figure>
+    </div>
+  </div>
+</section>
+
+<section class="sekce sklipek" id="sklipek">
+  <div class="wrap sklipek-grid">
+    <figure>{{ img('sklipek.jpg', 'Vinný sklípek penzionu s cihlovými klenbami a regály na víno', sizes='(min-width: 60rem) 34rem, 100vw') }}</figure>
+    <div>
+      <h2>Vinný sklípek přímo v penzionu</h2>
+      <p>Sklípek má posezení pro zhruba osm lidí a deset odrůd vín s volným přístupem. Rohatec leží na Slovácku, takže se tu k večeru dobře sedí.</p>
+      <p><a class="odkaz-svetly" href="#kontakt">Zeptat se na termín</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce vybaveni" id="vybaveni">
+  <div class="wrap vyb-grid">
+    <div>
+      <h2>Co je v každém pokoji</h2>
+      <ul class="seznam" role="list">
+        <li>Plně vybavená kuchyňka: mikrovlnka, indukční deska, varná konvice, lednice, nádobí a kávovar na kapsle Tassimo</li>
+        <li>Vlastní koupelna se sprchovým koutem, toaletou a umyvadlem</li>
+        <li>Kabelová televize, klimatizace a WiFi</li>
+        <li>Plnohodnotná lůžka s ortopedickými matracemi</li>
+      </ul>
+      <p class="malo">Přijedete s koly? Stojan v areálu je zdarma, v garáži za 50 Kč za noc.</p>
+    </div>
+    <div class="vyb-foto">
+      <figure>{{ img('pokoj2.jpg', 'Kuchyňský kout a jídelní stůl v pokoji v patře', sizes='(min-width: 60rem) 26rem, 60vw') }}</figure>
+      <figure>{{ img('recepce.jpg', 'Recepce s cihlovým pultem a černými závěsnými lampami', sizes='(min-width: 60rem) 20rem, 40vw') }}</figure>
+    </div>
+  </div>
+</section>
+
+<section class="sekce okoli" id="okoli">
+  <div class="wrap">
+    <h2>V okolí penzionu</h2>
+    <ul class="okoli-seznam" role="list">
+      <li><strong>Cyklostezka</strong><span>Před penzionem vede cyklostezka k Baťovu kanálu.</span></li>
+      <li><strong>Nákupy do 400 m</strong><span>Řeznictví, pekárna a večerka. V obci je i prodejna COOP.</span></li>
+      <li><strong>Jídlo</strong><span>Dvě restaurace a kavárna přímo v Rohatci.</span></li>
+      <li><strong>Děti a sport</strong><span>V Rohatci je několik volně přístupných hřišť pro malé i velké.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Napište nám, kdy chcete přijet</h2>
+      <p>Poptávka přijde majiteli, Vladimíru Hujňákovi, a ozve se vám s volnými termíny.</p>
+      <address>
+        Penzion U Hujňáků<br>Nové řádky 376/11<br>696 01 Rohatec<br>
+        <a href="tel:+420608782702">+420 608 782 702</a><br>
+        <a href="mailto:info@penzionuhujnaku.cz">info@penzionuhujnaku.cz</a>
+      </address>
+      <p><a class="odkaz" href="https://www.facebook.com/penzionuhujnaku" rel="noopener">Penzion na Facebooku</a></p>
+    </div>
+    <form class="formular" method="post" data-endpoint="" data-demo="1">
+      <div class="dva">
+        <label>Příjezd <input name="prijezd" type="date"></label>
+        <label>Odjezd <input name="odjezd" type="date"></label>
+      </div>
+      <label>Počet osob <input name="osob" type="number" min="1" max="7" inputmode="numeric"></label>
+      <label>Jméno <input name="jmeno" autocomplete="name" required></label>
+      <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+      <label>Telefon <input name="telefon" type="tel" autocomplete="tel"></label>
+      <label>Zpráva <textarea name="zprava" rows="4"></textarea></label>
+      <div class="past" aria-hidden="true"><label>Nevyplňovat <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+      <button type="submit">Odeslat poptávku</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<script>window.POKOJE = {{ data.pokoje|tojson }};</script>
+{% endblock %}

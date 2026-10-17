@@ -1,0 +1,17 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "První obrazovka (PC snímek 1, mobil snímek 1): na PC je při scrollu 0 hlavička napůl vysunutá nahoru, takže z názvu je vidět jen „U Hujňáků“. Mobil snímek 1 začíná uprostřed H1 „a vinným sklípkem“ a chybí na něm hlavička i fotka bazénu, přitom měla být hned pod hlavičkou nad H1. Oprava: hlavičce zrušit animaci příjezdu a skrývání při scrollu, ať je od načtení celá vidět. Ověřit, že se stránka při načtení sama neposouvá (autofocus ve formuláři, scroll-restoration, kotva v URL). Na 390 a 360 px musí první obrazovka ukazovat hlavičku, pod ní fotku bazen2 a pod ní celé H1.",
+    "Kolik vás přijede (PC 3–4, mobil 2–5): karty jako visačky s číslem a velkou cenou fungují, ale všechny mají stejnou velikost a jdou jen podle čísla pokoje (A1/A2, A3, A4, P1/P2…), ne podle kapacity, jak zněla minulá výtka. U 2 osob karta A3 ukazuje poznámku „Cena pro 1 osobu platí při nepoužití lůžek v patře“, která k vybranému počtu nepatří. Cena P4 1 800 Kč nemá v briefu zdroj, u P4 je tam jen popis bez ceny. Oprava: karty řadit podle toho, jak sedí k vybranému počtu (nejmenší vyhovující pokoj první a větší karta), poznámku zobrazit jen k vybranému počtu osob a cenu P4 doložit do brief.json ze stávajícího ceníku, jinak ji nahradit textem „cena na dotaz“.",
+    "Hero a ceník na PC (snímky 1–3 a 5): H1 se pořád láme na tři řádky („Ubytování v / Rohatci s bazénem / a vinným sklípkem“), takže se na první obrazovku nevejde CTA. Řádek „Celý ceník a podmínky pobytu“ nemá znaménko + ani šipku a nevypadá jako rozbalovací. Pod ním zůstává asi 120 px prázdna před krémovým pásem Bazén. Oprava: H1 zkrátit na „Ubytování v Rohatci s bazénem a sklípkem“ a rozšířit blok tak, ať má dva řádky. K ceníku přidat ikonu +/− a vypsat do něj podmínky z briefu (jedna noc +500 Kč, svátky min. 3 noci, kola). Mezeru pod ním zmenšit na běžný rytmus sekcí."
+  ],
+  "silne": [
+    "Hero má teď fotku bazénu přes celou šířku a světlý podklad #fffaf0. Krémová #ffe9ba zůstala jen na pás Bazén, sauna a zahrada, takže penzion s bazénem je poznat hned.",
+    "Karty pokojů s velkým číslem na modrém pruhu, fotkou typu (A nebo P) a cenou kolem 22 px jsou čitelné a na mobilu dobře poskládané pod sebe.",
+    "Na mobilu jsou v menu jen „Pokoje a ceník“ a „Kontakt“, nic nepřetéká a dotykové cíle jsou v pořádku (QA 0 malých cílů a 0 přetečení na všech šířkách).",
+    "Obsah se drží briefu: rozměry bazénu, deset odrůd vín ve sklípku, vybavení pokojů, okolí do 400 m. Zdroj provozovny Nové řádky je v briefu doplněný.",
+    "Young Serif + Figtree drží háčky a hierarchie nadpisů je jasná."
+  ],
+  "verdikt": "Opravit: hero a karty se výrazně zlepšily, ale první obrazovka se v koláži načítá rozbitá (hlavička napůl, na mobilu chybí fotka) a karty pořád nejsou seřazené podle kapacity. Po opravě první obrazovky a doložení ceny P4 je web na 8.",
+  "_hash": "b71c67b8a53092961738ed3333e0f2079aab6613"
+}

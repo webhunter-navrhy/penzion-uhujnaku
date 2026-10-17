@@ -1,0 +1,31 @@
+{
+  "slug": "penzion-uhujnaku",
+  "nazev": "Penzion U Hujňáků",
+  "url": "https://webhunter-navrhy.github.io/penzion-uhujnaku/",
+  "base": "/penzion-uhujnaku/",
+  "lang": "cs",
+  "popis": "Penzion v Rohatci u Baťova kanálu: apartmány a pokoje s kuchyňkou, zastřešený bazén se slanou vodou, sauna a vinný sklípek. Parkování zdarma.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "bazen2.jpg",
+  "logo": "logo.svg",
+  "theme_color": "#0b2f57",
+  "typ": "LodgingBusiness",
+  "ico": "61393762",
+  "kontakt": {
+    "email": "info@penzionuhujnaku.cz",
+    "telefon": "+420 608 782 702",
+    "adresa": {"ulice": "Nové řádky 376/11", "psc": "69601", "mesto": "Rohatec", "zeme": "CZ"}
+  },
+  "oteviraci_doba": [],
+  "sameas": ["https://www.facebook.com/penzionuhujnaku"],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Poptávka ubytování z webu"},
+  "nav": [
+    {"text": "Pokoje a ceník", "href": "#pokoje"},
+    {"text": "Bazén a sauna", "href": "#zahrada"},
+    {"text": "Sklípek", "href": "#sklipek"},
+    {"text": "Okolí", "href": "#okoli"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}

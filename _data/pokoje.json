@@ -1,0 +1,8 @@
+[
+ {"id":"A1 / A2","kusu":2,"typ":"Přízemní apartmán, vlastní vchod","max":6,"lozka":"4 lůžka na dřevěném patře a 2 na rozkládací pohovce","ceny":{"2":2000,"3":3200,"4":3200,"5":4000,"6":4600},"pozn":"Cena pro 2 osoby platí při nepoužití lůžek v patře."},
+ {"id":"A3","kusu":1,"typ":"Přízemní apartmán, vlastní vchod","max":3,"lozka":"2 lůžka na dřevěném patře a samostatná postel","ceny":{"1":1400,"2":2000,"3":2800},"pozn":"Cena pro 1 osobu platí při nepoužití lůžek v patře."},
+ {"id":"A4","kusu":1,"typ":"Přízemní apartmán, vlastní vchod","max":7,"lozka":"5 lůžek na dřevěném patře a 2 na rozkládací pohovce","ceny":{"2":2000,"3":3200,"4":3200,"5":4000,"6":4600,"7":5000},"pozn":"Ceny pro 2 a pro 3–4 osoby platí při nepoužití lůžek v patře (u 3–4 osob v patře nad kuchyní)."},
+ {"id":"P1 / P2","kusu":2,"typ":"Pokoj v patře, vchod z chodby","max":4,"lozka":"manželská postel a 2 lůžka na rozkládací pohovce","ceny":{"2":2000,"3":2800,"4":3200},"pozn":""},
+ {"id":"P3","kusu":1,"typ":"Pokoj v patře, vchod z chodby","max":4,"lozka":"manželská postel a 2 samostatné postele, jdou přisunout k sobě","ceny":{"2":2000,"3":3200,"4":3200},"pozn":""},
+ {"id":"P4","kusu":1,"typ":"Pokoj v patře, vchod z chodby","max":2,"lozka":"2 samostatné postele, jdou přisunout k sobě","ceny":{"2":1800},"pozn":""}
+]

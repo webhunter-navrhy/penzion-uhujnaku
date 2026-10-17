@@ -1,0 +1,425 @@
+{
+ "slug": "penzion-uhujnaku",
+ "zdroj_url": "https://www.penzionuhujnaku.cz",
+ "firma": "Penzion U Hujňáků",
+ "obor": [
+  "gastro a ubytování",
+  "zahrada a venkov"
+ ],
+ "ico": "61393762",
+ "ares": {
+  "ico": "61393762",
+  "obchodni_jmeno": "Vladimír Hujňák",
+  "pravni_forma": "105",
+  "adresa": "Revoluční 300/13, 69601 Rohatec",
+  "obec": "Rohatec",
+  "dic": "CZ7107084710",
+  "datum_vzniku": "1994-07-07",
+  "nace": [
+   "62",
+   "73110",
+   "855",
+   "461",
+   "58"
+  ]
+ },
+ "kontakty": {
+  "emaily": [
+   "info@penzionuhujnaku.cz"
+  ],
+  "telefony": [
+   "+420 608 782 702"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/people/Penzion-U-Huj%C5%88%C3%A1k%C5%AF/61578628674384/?locale=cs_CZ",
+   "https://www.facebook.com/pg/penzionuhujnaku/photos/",
+   "https://www.facebook.com/profile.php?id=61578628674384&locale=cs_CZ"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "http://www.penzionuhujnaku.cz/img/logo.png",
+  "rozmery": [
+   139,
+   58
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#ffe9ba",
+   "#007ce7"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#ffe9ba",
+   "#007ce7"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/recepce1.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "recepce"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/recepce2.jpg",
+   "sirka": 2048,
+   "vyska": 1365,
+   "alt": "recepce"
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/sklep2.jpg",
+   "sirka": 4032,
+   "vyska": 3024,
+   "alt": "vinný sklep"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/zahrada1.jpg",
+   "sirka": 2048,
+   "vyska": 1365,
+   "alt": "zahradní posezení"
+  },
+  {
+   "soubor": "podklady/foto/foto-05.mpo",
+   "url": "http://www.penzionuhujnaku.cz/img/bazen2.jpg",
+   "sirka": 2856,
+   "vyska": 2142,
+   "alt": "bazén"
+  },
+  {
+   "soubor": "podklady/foto/foto-06.mpo",
+   "url": "http://www.penzionuhujnaku.cz/img/bazen4.jpg",
+   "sirka": 2856,
+   "vyska": 2142,
+   "alt": "bazén"
+  },
+  {
+   "soubor": "podklady/foto/foto-07.mpo",
+   "url": "http://www.penzionuhujnaku.cz/img/bazen3.jpg",
+   "sirka": 2856,
+   "vyska": 2142,
+   "alt": "bazén"
+  },
+  {
+   "soubor": "podklady/foto/foto-08.mpo",
+   "url": "http://www.penzionuhujnaku.cz/img/sauna1.jpg",
+   "sirka": 2856,
+   "vyska": 2142,
+   "alt": "sauna"
+  },
+  {
+   "soubor": "podklady/foto/foto-09.mpo",
+   "url": "http://www.penzionuhujnaku.cz/img/sauna2.jpg",
+   "sirka": 2856,
+   "vyska": 2142,
+   "alt": "sauna"
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/apart1.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "pokoj v přízemí"
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/apart2.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "pokoj v přízemí"
+  },
+  {
+   "soubor": "podklady/foto/foto-12.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/apart3.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "pokoj v přízemí"
+  },
+  {
+   "soubor": "podklady/foto/foto-13.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/pokoj1.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "pokoj v patře"
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/pokoj2.jpg",
+   "sirka": 1500,
+   "vyska": 1000,
+   "alt": "pokoj v patře"
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/pokoj3.jpg",
+   "sirka": 918,
+   "vyska": 1224,
+   "alt": "pokoj v patře"
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "http://www.penzionuhujnaku.cz/img/pokoj4.jpg",
+   "sirka": 918,
+   "vyska": 1224,
+   "alt": "pokoj v patře"
+  },
+  {
+   "soubor": "podklady/foto/foto-17.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EUfve2_1.png",
+   "sirka": 808,
+   "vyska": 384,
+   "alt": "EUfve2_1"
+  },
+  {
+   "soubor": "podklady/foto/foto-18.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EUfve2_2.png",
+   "sirka": 837,
+   "vyska": 260,
+   "alt": "EUfve2_2"
+  },
+  {
+   "soubor": "podklady/foto/foto-19.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EUfve1_1.png",
+   "sirka": 960,
+   "vyska": 488,
+   "alt": "EUfve1_1"
+  },
+  {
+   "soubor": "podklady/foto/foto-20.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EUfve1_2.png",
+   "sirka": 961,
+   "vyska": 486,
+   "alt": "EUfve1_2"
+  },
+  {
+   "soubor": "podklady/foto/foto-21.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EU1.png",
+   "sirka": 857,
+   "vyska": 451,
+   "alt": "EU1"
+  },
+  {
+   "soubor": "podklady/foto/foto-22.png",
+   "url": "http://www.penzionuhujnaku.cz/img/EU2.png",
+   "sirka": 864,
+   "vyska": 423,
+   "alt": "EU2"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Penzion U Hujňáků",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Základní informace",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Fotogalerie",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Recepce",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Zahradní posezení",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Bazén a Sauna",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Přízemní apartmány",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Pokoje v patře",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Ceník",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Přízemní apartmány A1, A2, A3 a A4 (s vlastním vchodem)",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Pokoje v patře P1, P2, P3 a P4 (vchod z chodby)",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Stručný popis",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Kontakty",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Odpovědná osoba:",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Telefon:",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Adresa:",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Ostatní:",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "+ zahradní posezení, zastřešený vyhřívaný bazén, lehátka, sauna",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "lůžkoviny, osušky, ručníky, utěrka a úklidové pomůcky",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Při obsazenosti kteréhokoli pokoje či apartmánu pouze jednou osobou platí vždy cena za dvě osoby, kromě apartmánu A3.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ubytování na jednu noc pouze po domluvě (příplatek 500,-Kč)",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ubytování v době prodloužených víkendů, svátků, prázdnin atd. minimálně na tři noci. Kratší pobyt pouze po domluvě (příplatek 500,-Kč)",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Kola v areálu ve stojanu zdarma, v garáži 50,-Kč/noc/kolo, elektrokola 50,-Kč/noc.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ceny neobsahují turistický, obecní poplatek a DPH 12%.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Až pro šest osob, kde 4 lůžka na dřevěném patře a 2 lůžka na rozkládací pohovce. Všechna lůžka jsou plnohodnotná (ortopedická matrace 80-90x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "cena za pokoj/noc: pro 2 osoby 2.000,-Kč (při nepoužití lůžek v patře), pro 3-4 osoby 3.200,-Kč, pro 5 osob 4.000,-Kč, pro 6 osob 4.600,-Kč",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Až pro tři osoby, kde 2 lůžka na dřevěném patře a 1 lůžko samostatná postel. Všechna lůžka jsou plnohodnotná (ortopedická matrace 80x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "cena za pokoj/noc: pro 1 osobu 1.400,-Kč (při nepoužití lůžek v patře), pro 2 osoby 2.000,-Kč, pro 3 osoby 2.800,-Kč",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Až pro sedm osob, kde 2 a 3 lůžka na dřevěném patře a 2 lůžka na rozkládací pohovce. Všechna lůžka jsou plnohodnotná (ortopedická matrace 80x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "cena za pokoj/noc: pro 2 osoby 2.000,-Kč (při nepoužití lůžek v patrech), pro 3-4 osoby 3.200,-Kč (při nepoužití lůžek v patře nad kuchyní), pro 5 osob 4.000,-Kč, pro 6 osob 4.600,-Kč pro 7 osob 5.000,-Kč",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Až pro čtyři osoby - manželská postel a 2 lůžka na rozkládací pohovce. Všechny lůžka jsou plnohodnotná (ortopedická matrace 80x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "cena za pokoj/noc: pro 2 osoby 2.000,-Kč, pro 3 osoby 2.800,-Kč, pro 4 osoby 3.200,-Kč",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Až pro čtyři osoby – manželské postele a 2x samostatná postel s možností přisunutí k sobě (ortopedické matrace 80x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "cena za pokoj/noc: pro 2 osoby 2.000,-Kč, pro 3-4 osoby 3.200,-Kč",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pro dvě osoby - 2x samostatná postel s možností přisunutí k sobě (ortopedické matrace 80x200cm).",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Součástí každého pokoje/apartmánu je plně vybavená kuchyňka (mikrovlnka, indukční deska, varná konvice, lednice, nádobí, kávovar na kapsle TASSIMO atd.), kompletní sociální zařízení (sprchový kout, toaleta, umyvadlo), kabelová TV, klimatizace a připojení WiFi.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Přímo v penzionu je vinný sklípek s posezením pro cca 8 osob s 10 odrůdami vín s volným přístupem, zahradní posezení, uložení kol a možnost parkování před penzionem na soukromém parkovišti zdarma.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "V zahradě je zastřešený vyhřívaný bazén se slanou vodou 8x4x1,5m, lehátka, sauna.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "V okolí penzionu je masna, pekárna, večerka vše do max. 400m, prodejna potravin COOP, dvě restaurace a kavárna přímo v obci.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Přímo v Rohatci je několik volně přístupných hřišť, jak pro malé, tak i pro velké děti, případně sportovce.",
+   "zdroj": "http://www.penzionuhujnaku.cz/"
+  }
+ ],
+ "chybi": [
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Penzion U Hujňáků v Rohatci",
+ "poznamky_zdroj": "Provozovna Nové řádky 376/11 a věta o cyklostezce k Baťovu kanálu jsou ze stávajícího webu penzionuhujnaku.cz a z mailu klienta (sídlo dle ARES je Revoluční 300/13)."
+}
